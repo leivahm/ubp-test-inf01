@@ -113,6 +113,32 @@ body {
     -webkit-text-fill-color: transparent;
   }
 
+  /* ==== FONDO CONTACTOS === */
+
+#bg-contacto {
+  position: relative;
+  top: -130px;
+}
+
+#seccion-contacto {
+  background-color: #0099ff;
+  min-height: 500px;
+  position: relative;
+}
+
+
+/* === CONTACTOS FORMULARIO === */
+
+#contenedor-formulario {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fbfafa;
+  border-radius: 5px;
+  max-width: 500px;
+}
+
   /* when screen's smaller than 512px */
   @media (max-width: 512px) {
     #principles span {
@@ -130,5 +156,9 @@ body {
   @media (max-width: 840px) {
     #principles h1 {
       font-size: 6rem;
+    }
+
+    #bg-contacto {
+      top: -110px;
     }
   }
